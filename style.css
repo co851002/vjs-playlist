@@ -1,14 +1,16 @@
 .video-holder {
     background: #fff;
     padding: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .centered {
     width: auto;
-    margin: 30px auto 0;
+    margin: 0;
 }
 
 .playlist-components {
-    height: 276px;
+    height: 336px;
 }
 .video-js, .playlist-components {
     display: inline-block;
@@ -95,4 +97,9 @@
     word-wrap: break-word;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
+}
+aside.playlist-components {
+    display: inline-block;
+    /* vertical-align: middle; */
+    margin-top: 10px;
 }
